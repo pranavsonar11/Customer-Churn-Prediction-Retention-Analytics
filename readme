@@ -1,0 +1,37 @@
+
+# Customer Churn Prediction - Data Science Project
+
+## Project Overview
+This project predicts customer churn using machine learning techniques. The objective is to identify customers who are likely to churn so that the business can take proactive retention actions.
+
+## Project Workflow
+1. Data Cleaning
+2. Feature Encoding
+3. Handling Imbalanced Data using SMOTE
+4. Model Training (Random Forest)
+5. Hyperparameter Tuning (GridSearchCV)
+6. Model Evaluation using ROC-AUC, Precision, Recall
+7. Model Saving for Deployment
+
+## Tech Stack
+- Python
+- Pandas
+- Scikit-learn
+- SMOTE
+- Random Forest
+- GridSearchCV
+
+## Business Impact
+This model helps businesses:
+- Reduce customer churn
+- Improve customer retention strategies
+- Increase customer lifetime value
+- Optimize marketing campaigns
+
+## How to Run
+1. Place your dataset as data.csv
+2. Run: python churn_model_pipeline.py
+3. Model will be saved as churn_model.pkl
+
+## Author
+Pranav Sonar
